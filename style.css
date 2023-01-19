@@ -1,0 +1,96 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1, button {
+  font-size: 200%;
+  margin: auto;
+}
+
+#jokeContainer.hide {
+  display: none;
+}
+
+#jokeContainer {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.722);
+  font-size: 200%;
+}
+
+body {
+  background-image: url(./BgPicture/background\ cat.jpg);
+}
+
+#jokeContainer.border {
+  border: 5px solid rgb(35, 35, 198);
+}
+
+.hide {
+  display: none;
+}
+
+
+#jokesList {
+  overflow: hidden;
+  font-size: 130%;
+  height: 400px;
+  width: 800px;
+  overflow-y: scroll;
+}
+
+#jokesList {
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#jokesList::-webkit-scrollbar {
+    display: none;
+    width: 0;
+}
+
+li:hover {
+  background-color: blue;
+  color: white;
+}
+
+@font-face {
+  font-family: "draconis";
+  src: url(./fonts/Draconis-JRw6B.ttf);
+}
+
+body {
+  font-family: "draconis";
+}
+
+.bigger {
+  font-size: 200%;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+button {
+  padding: 15px 32px 20px;
+  margin-top: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 150px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
